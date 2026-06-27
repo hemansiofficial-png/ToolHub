@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/tools/layout,_N_T_/tools/pdf-merge/layout,_N_T_/tools/pdf-merge/page,_N_T_/tools/pdf-merge"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/tools/pdf-merge/__PAGE__",
+    "/tools/pdf-merge",
+    "/tools",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,1844 @@
+[00:00:02.420] Server  LOG      ✓ Ready in 1685ms
+[00:00:35.194] Server  LOG      ○ Compiling / ...
+[00:00:38.134] Server  WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[00:00:59.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:59.241] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[00:01:03.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:03.969] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[00:08:11.814] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.816] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.823] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:11:36.049] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:36.050] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:36.051] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:25:40.084] Server  LOG      ✓ Compiled in 353ms
+[01:57:28.340] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/[slug]/page.tsx:3:1
+Module not found: Can't resolve '../../../components/PageSeo'
+  1 | import { notFound } from 'next/navigation'
+  2 | import { posts } from '../../../data/blog'
+> 3 | import { buildMetadata } from '../../../components/PageSeo'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export function generateMetadata({ params }: { params: { slug: string } }) {
+  6 |   const post = posts.find((p) => p.slug === params.slug)
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:28.344] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/[slug]/page.tsx:3:1
+Module not found: Can't resolve '../../../components/PageSeo'
+  1 | import { notFound } from 'next/navigation'
+  2 | import { posts } from '../../../data/blog'
+> 3 | import { buildMetadata } from '../../../components/PageSeo'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export function generateMetadata({ params }: { params: { slug: string } }) {
+  6 |   const post = posts.find((p) => p.slug === params.slug)
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:28.356] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/page.tsx:2:1
+Module not found: Can't resolve '../../components/PageSeo'
+  1 | import Link from 'next/link'
+> 2 | import { buildMetadata } from '../../components/PageSeo'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { posts } from '../../data/blog'
+  4 |
+  5 | export const metadata = buildMetadata({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:28.360] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/page.tsx:2:1
+Module not found: Can't resolve '../../components/PageSeo'
+  1 | import Link from 'next/link'
+> 2 | import { buildMetadata } from '../../components/PageSeo'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { posts } from '../../data/blog'
+  4 |
+  5 | export const metadata = buildMetadata({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:29.295] Browser ERROR   ./Desktop/tool website/app/blog/page.tsx:2:1
+Module not found: Can't resolve '../../components/PageSeo'
+  1 | import Link from 'next/link'
+> 2 | import { buildMetadata } from '../../components/PageSeo'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { posts } from '../../data/blog'
+  4 |
+  5 | export const metadata = buildMetadata({
+
+https://nextjs.org/docs/messages/module-not-found
+[01:57:29.295] Browser ERROR   ./Desktop/tool website/app/blog/[slug]/page.tsx:3:1
+Module not found: Can't resolve '../../../components/PageSeo'
+  1 | import { notFound } from 'next/navigation'
+  2 | import { posts } from '../../../data/blog'
+> 3 | import { buildMetadata } from '../../../components/PageSeo'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export function generateMetadata({ params }: { params: { slug: string } }) {
+  6 |   const post = posts.find((p) => p.slug === params.slug)
+
+https://nextjs.org/docs/messages/module-not-found
+[01:57:30.206] Server  LOG      ✓ Compiled in 250ms
+[01:57:30.798] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:30.799] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:30.801] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:57:30.974] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:30.975] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:30.977] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:57:36.149] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/page.tsx:3:1
+Module not found: Can't resolve '../../data/blog'
+  1 | import Link from 'next/link'
+  2 | import { buildMetadata } from '../../components/PageSeo'
+> 3 | import { posts } from '../../data/blog'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata = buildMetadata({
+  6 |   title: 'Blog - ToolHub India',
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:36.152] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/page.tsx:3:1
+Module not found: Can't resolve '../../data/blog'
+  1 | import Link from 'next/link'
+  2 | import { buildMetadata } from '../../components/PageSeo'
+> 3 | import { posts } from '../../data/blog'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata = buildMetadata({
+  6 |   title: 'Blog - ToolHub India',
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:36.162] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/[slug]/page.tsx:2:1
+Module not found: Can't resolve '../../../data/blog'
+  1 | import { notFound } from 'next/navigation'
+> 2 | import { posts } from '../../../data/blog'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { buildMetadata } from '../../../components/PageSeo'
+  4 |
+  5 | export function generateMetadata({ params }: { params: { slug: string } }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:36.164] Server  ERROR    ⨯ ./Desktop/tool website/app/blog/[slug]/page.tsx:2:1
+Module not found: Can't resolve '../../../data/blog'
+  1 | import { notFound } from 'next/navigation'
+> 2 | import { posts } from '../../../data/blog'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { buildMetadata } from '../../../components/PageSeo'
+  4 |
+  5 | export function generateMetadata({ params }: { params: { slug: string } }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:57:37.286] Browser ERROR   ./Desktop/tool website/app/blog/page.tsx:3:1
+Module not found: Can't resolve '../../data/blog'
+  1 | import Link from 'next/link'
+  2 | import { buildMetadata } from '../../components/PageSeo'
+> 3 | import { posts } from '../../data/blog'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata = buildMetadata({
+  6 |   title: 'Blog - ToolHub India',
+
+https://nextjs.org/docs/messages/module-not-found
+[01:57:37.286] Browser ERROR   ./Desktop/tool website/app/blog/[slug]/page.tsx:2:1
+Module not found: Can't resolve '../../../data/blog'
+  1 | import { notFound } from 'next/navigation'
+> 2 | import { posts } from '../../../data/blog'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { buildMetadata } from '../../../components/PageSeo'
+  4 |
+  5 | export function generateMetadata({ params }: { params: { slug: string } }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:57:37.836] Server  LOG      ✓ Compiled in 19ms
+[01:57:38.290] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:38.291] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:38.292] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:57:38.458] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:38.460] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:38.461] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:42.681] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:42.683] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:42.684] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:43.122] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.123] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.124] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:43.343] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.344] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.346] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:43.454] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.455] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.456] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:43.570] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.571] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:43.573] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:44.046] Server  LOG      ✓ Compiled in 315ms
+[01:58:44.469] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.470] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.471] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:44.648] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.650] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.651] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:44.810] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.811] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.812] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:44.928] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.930] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:44.931] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.056] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.058] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.059] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.181] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.183] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.184] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.304] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.306] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.307] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.429] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.430] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.431] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.553] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.555] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.556] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.668] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.669] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.670] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.793] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.795] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.795] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:45.914] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.916] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:45.917] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:46.059] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\972d2_next_dist_3d227857._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:46.064] Server  ERROR   C:\Users\heman\Desktop\tool website\.next\dev\server\chunks\ssr\[root-of-the-server]__54161041._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:58:46.066] Server  WARN    Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:58:48.328] Server  LOG      ✓ Compiled in 282ms
+[01:59:23.938] Server  WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[01:59:24.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:25.300] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[01:59:46.393] Server  LOG      ✓ Compiled in 1702ms
+[01:59:47.856] Server  LOG      ✓ Compiled in 871ms
+[01:59:48.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:49.531] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.534] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.550] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.553] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.556] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.558] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.561] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:3:1
+Module not found: Can't resolve '../../components/Header'
+  1 | import type { ReactNode } from 'react'
+  2 | import '../globals.css'
+> 3 | import Header from '../../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Footer from '../../components/Footer'
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.563] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:3:1
+Module not found: Can't resolve '../../components/Header'
+  1 | import type { ReactNode } from 'react'
+  2 | import '../globals.css'
+> 3 | import Header from '../../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Footer from '../../components/Footer'
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.565] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.568] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.571] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.573] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.576] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.578] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.581] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:3:1
+Module not found: Can't resolve '../../components/Header'
+  1 | import type { ReactNode } from 'react'
+  2 | import '../globals.css'
+> 3 | import Header from '../../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Footer from '../../components/Footer'
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.583] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:3:1
+Module not found: Can't resolve '../../components/Header'
+  1 | import type { ReactNode } from 'react'
+  2 | import '../globals.css'
+> 3 | import Header from '../../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Footer from '../../components/Footer'
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.585] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.587] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.590] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.593] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.595] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.598] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.600] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.603] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.610] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.612] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.648] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.650] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.764] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:49.767] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:50.291] Browser ERROR   ./Desktop/tool website/app/layout.tsx:4:1
+Module not found: Can't resolve '../components/Header'
+  2 | import { Metadata } from 'next'
+  3 | import Script from 'next/script'
+> 4 | import Header from '../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Footer from '../components/Footer'
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:59:50.291] Browser ERROR   ./Desktop/tool website/app/admin/layout.tsx:3:1
+Module not found: Can't resolve '../../components/Header'
+  1 | import type { ReactNode } from 'react'
+  2 | import '../globals.css'
+> 3 | import Header from '../../components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Footer from '../../components/Footer'
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:59:51.367] Server  LOG      ✓ Compiled in 263ms
+[01:59:52.150] Server  WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[01:59:52.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:53.295] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[01:59:53.833] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.835] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.838] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.840] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.843] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:4:1
+Module not found: Can't resolve '../../components/Footer'
+  2 | import '../globals.css'
+  3 | import Header from '../../components/Header'
+> 4 | import Footer from '../../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+  7 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.844] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:4:1
+Module not found: Can't resolve '../../components/Footer'
+  2 | import '../globals.css'
+  3 | import Header from '../../components/Header'
+> 4 | import Footer from '../../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+  7 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.847] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.849] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.851] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.853] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.856] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.858] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.860] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.863] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.866] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.868] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.871] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.881] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.885] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.888] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.890] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:4:1
+Module not found: Can't resolve '../../components/Footer'
+  2 | import '../globals.css'
+  3 | import Header from '../../components/Header'
+> 4 | import Footer from '../../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+  7 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.892] Server  ERROR    ⨯ ./Desktop/tool website/app/admin/layout.tsx:4:1
+Module not found: Can't resolve '../../components/Footer'
+  2 | import '../globals.css'
+  3 | import Header from '../../components/Header'
+> 4 | import Footer from '../../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+  7 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.894] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.896] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.900] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.903] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.906] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.908] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.911] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.913] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.916] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:53.918] Server  ERROR    ⨯ ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:54.290] Browser ERROR   ./Desktop/tool website/app/layout.tsx:5:1
+Module not found: Can't resolve '../components/Footer'
+  3 | import Script from 'next/script'
+  4 | import Header from '../components/Header'
+> 5 | import Footer from '../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { getSiteUrl, siteConfig } from '../utils/site'
+  7 |
+  8 | const siteUrl = getSiteUrl()
+
+https://nextjs.org/docs/messages/module-not-found
+[01:59:54.290] Browser ERROR   ./Desktop/tool website/app/admin/layout.tsx:4:1
+Module not found: Can't resolve '../../components/Footer'
+  2 | import '../globals.css'
+  3 | import Header from '../../components/Header'
+> 4 | import Footer from '../../components/Footer'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function AdminLayout({ children }: { children: ReactNode }) {
+  7 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:59:55.640] Server  LOG      ✓ Compiled in 286ms
+[01:59:58.021] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.024] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.027] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.028] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.031] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.033] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.035] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.037] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.040] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.042] Server  ERROR    ⨯ ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:59:58.302] Browser ERROR   ./Desktop/tool website/app/page.tsx:6:1
+Module not found: Can't resolve '../components/AdPlaceholder'
+  4 | import ToolSearch from '../components/ToolSearch'
+  5 | import FAQSection from '../components/FAQSection'
+> 6 | import AdPlaceholder from '../components/AdPlaceholder'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const faqItems = [
+  9 |   { question: 'What kind of tools are available?', answer: 'ToolHub India includes finance, image, text, developer, and utility tools.' },
+
+https://nextjs.org/docs/messages/module-not-found
+[01:59:59.679] Server  LOG      ✓ Compiled in 212ms
+[02:06:50.369] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/blog/intro-to-sip. Falling back to browser navigation. {}
+[02:42:47.363] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/blog/intro-to-sip. Falling back to browser navigation. {}
+[13:00:03.981] Server  WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[13:00:25.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:00:27.471] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[13:03:49.419] Server  WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[13:03:50.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:03:50.655] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[13:44:30.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:44:30.232] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[14:32:02.026] Server  LOG      ✓ Compiled in 242ms
+[14:32:16.345] Server  LOG        Reload env: .env
+[14:32:17.756] Server  LOG      ✓ Compiled in 772ms
+[15:06:02.374] Server  WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[15:06:03.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[15:06:03.451] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[15:08:24.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[15:08:24.624] Browser WARN    [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`.
+[15:24:07.990] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx:5:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  3 | import { useState } from 'react'
+  4 | import RangeField from '../../../components/RangeField'
+> 5 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const formatCurrency = (value: number) =>
+  8 |   new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(value)
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:07.991] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx:5:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  3 | import { useState } from 'react'
+  4 | import RangeField from '../../../components/RangeField'
+> 5 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const formatCurrency = (value: number) =>
+  8 |   new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(value)
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:07.992] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx:5:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  3 | import { useState } from 'react'
+  4 | import RangeField from '../../../components/RangeField'
+> 5 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const formatCurrency = (value: number) =>
+  8 |   new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(value)
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:07.993] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx:5:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  3 | import { useState } from 'react'
+  4 | import RangeField from '../../../components/RangeField'
+> 5 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const formatCurrency = (value: number) =>
+  8 |   new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(value)
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:07.996] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:07.998] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:07.999] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.004] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.012] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.016] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.020] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.024] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.028] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.032] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.035] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.040] Server  ERROR    ⨯ ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[15:24:08.045] Server  LOG      ✓ Compiled in 132ms
+[15:24:11.064] Server  LOG      ✓ Compiled in 172ms
+[15:24:12.286] Browser ERROR   ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx:5:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  3 | import { useState } from 'react'
+  4 | import RangeField from '../../../components/RangeField'
+> 5 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const formatCurrency = (value: number) =>
+  8 |   new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(value)
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/step-up-sip-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[15:24:12.286] Browser ERROR   ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx:4:1
+Module not found: Can't resolve '../../../components/ToolPageShell'
+  2 |
+  3 | import RangeField from '../../../components/RangeField'
+> 4 | import ToolPageShell from '../../../components/ToolPageShell'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useState } from 'react'
+  6 |
+  7 | const formatCurrency = (value: number) =>
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component Browser]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Client Component SSR]
+    ./Desktop/tool website/app/tools/income-tax-calculator/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[15:29:27.012] Server  LOG      ✓ Compiled in 13ms
+[15:29:32.317] Server  LOG      ✓ Compiled in 79ms
+[15:30:00.450] Server  LOG      ✓ Compiled in 180ms
+[15:30:17.854] Server  LOG      ✓ Compiled in 1201ms
+[15:30:44.752] Server  LOG      ✓ Compiled in 1306ms
+[15:30:47.406] Server  LOG      ✓ Compiled in 710ms
+[15:31:13.926] Server  LOG      ✓ Compiled in 96ms
+[17:43:44.454] Server  LOG      ✓ Compiled in 1196ms
+[17:45:03.663] Server  LOG      ✓ Compiled in 21ms
+[17:45:11.453] Server  LOG      ✓ Compiled in 140ms
+[17:50:46.123] Server  LOG      ○ Compiling /tools/pdf-to-image ...

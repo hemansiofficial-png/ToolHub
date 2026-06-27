@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[60804,["/_next/static/chunks/d8b3e5b4f000c07f.js"],""]
+3:I[88140,["/_next/static/chunks/e47e53d930bd4bed.js","/_next/static/chunks/650ebdd6da137f5b.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"VYohB_nHMDuFWuG3_W-g_","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto p-4","children":[["$","h1",null,{"className":"text-2xl font-bold","children":["Health"," Tools"]}],["$","p",null,{"className":"mt-2 text-slate-600 dark:text-slate-300","children":["Browse all tools in the ","Health"," category."]}],["$","div",null,{"className":"mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3","children":[["$","$L2","bmi-calculator",{"href":"/tools/bmi-calculator","className":"rounded border p-4 shadow-sm hover:shadow-lg dark:bg-slate-900","children":[["$","h2",null,{"className":"font-semibold","children":"BMI Calculator"}],["$","p",null,{"className":"mt-2 text-sm text-slate-600 dark:text-slate-300","children":"Measure body mass index from height and weight."}]]}]]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

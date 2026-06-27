@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/tools/layout,_N_T_/tools/step-up-sip-calculator/layout,_N_T_/tools/step-up-sip-calculator/page,_N_T_/tools/step-up-sip-calculator"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/tools/step-up-sip-calculator/__PAGE__",
+    "/tools/step-up-sip-calculator",
+    "/tools",
+    "/_index",
+    "/_head"
+  ]
+}

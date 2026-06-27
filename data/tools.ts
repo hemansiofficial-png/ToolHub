@@ -1,0 +1,38 @@
+export type ToolData = {
+  slug: string
+  title: string
+  description: string
+  category: string
+}
+
+export const tools: ToolData[] = [
+  { slug: 'income-tax-calculator', title: 'Income Tax Calculator', description: 'Compare estimated old and new regime tax for salaried income.', category: 'Finance' },
+  { slug: 'sip-calculator', title: 'SIP Calculator', description: 'Estimate SIP returns and maturity amount.', category: 'Finance' },
+  { slug: 'step-up-sip-calculator', title: 'Step Up SIP Calculator', description: 'Project SIP growth when contributions increase every year.', category: 'Finance' },
+  { slug: 'emi-calculator', title: 'EMI Calculator', description: 'Calculate EMI for loan amount, rate and tenure.', category: 'Finance' },
+  { slug: 'fd-calculator', title: 'FD Calculator', description: 'Calculate fixed deposit maturity and interest earnings.', category: 'Finance' },
+  { slug: 'cagr-calculator', title: 'CAGR Calculator', description: 'Measure compound annual growth rate between two values.', category: 'Finance' },
+  { slug: 'stock-average-calculator', title: 'Stock Average Calculator', description: 'Average multiple stock purchases to find break-even cost.', category: 'Finance' },
+  { slug: 'lumpsum-calculator', title: 'Lumpsum Calculator', description: 'Estimate future value for a one-time investment.', category: 'Finance' },
+  { slug: 'gst-calculator', title: 'GST Calculator', description: 'Compute GST inclusive and exclusive values.', category: 'Finance' },
+  { slug: 'pdf-merge', title: 'PDF Merge', description: 'Combine multiple PDF files into one document.', category: 'PDF' },
+  { slug: 'pdf-split', title: 'PDF Split', description: 'Extract selected pages from a PDF into a new file.', category: 'PDF' },
+  { slug: 'image-to-pdf', title: 'Image to PDF', description: 'Convert one or more images into a PDF.', category: 'PDF' },
+  { slug: 'pdf-to-image', title: 'PDF to Image', description: 'Convert PDF pages into downloadable PNG images.', category: 'PDF' },
+  { slug: 'pdf-compressor', title: 'PDF Compressor', description: 'Optimize PDF structure for a smaller downloadable file.', category: 'PDF' },
+  { slug: 'json-formatter', title: 'JSON Formatter', description: 'Format and validate JSON payloads.', category: 'Developer' },
+  { slug: 'qr-code-generator', title: 'QR Code Generator', description: 'Create QR codes for URLs or text.', category: 'Image' },
+  { slug: 'barcode-generator', title: 'Barcode Generator', description: 'Generate downloadable barcodes in common formats.', category: 'Image' },
+  { slug: 'image-compressor', title: 'Image Compressor', description: 'Compress images in-browser with size and quality controls.', category: 'Image' },
+  { slug: 'image-resizer', title: 'Image Resizer', description: 'Resize images while keeping the aspect ratio under control.', category: 'Image' },
+  { slug: 'word-counter', title: 'Word Counter', description: 'Count words and characters quickly.', category: 'Text' },
+  { slug: 'character-counter', title: 'Character Counter', description: 'Track characters, spaces, lines, and paragraphs live.', category: 'Text' },
+  { slug: 'case-converter', title: 'Case Converter', description: 'Convert text into upper, lower, title, camel, snake, and kebab case.', category: 'Text' },
+  { slug: 'age-calculator', title: 'Age Calculator', description: 'Calculate age from date of birth.', category: 'Utility' },
+  { slug: 'password-generator', title: 'Password Generator', description: 'Generate secure passwords instantly.', category: 'Utility' },
+  { slug: 'bmi-calculator', title: 'BMI Calculator', description: 'Measure body mass index from height and weight.', category: 'Health' },
+  { slug: 'unit-converter', title: 'Unit Converter', description: 'Convert units for length, weight, volume, and temperature.', category: 'Utility' },
+]
+
+export const categories = Array.from(new Set(tools.map((tool) => tool.category))).sort()
+export const toolsByCategory = (category: string) => tools.filter((tool) => tool.category === category)

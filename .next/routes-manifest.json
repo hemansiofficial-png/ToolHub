@@ -1,0 +1,345 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/blog/[slug]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/categories/[category]",
+      "regex": "^/categories/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcategory": "nxtPcategory"
+      },
+      "namedRegex": "^/categories/(?<nxtPcategory>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/tools/[slug]",
+      "regex": "^/tools/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/tools/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/ads",
+      "regex": "^/admin/ads(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/ads(?:/)?$"
+    },
+    {
+      "page": "/admin/analytics",
+      "regex": "^/admin/analytics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/analytics(?:/)?$"
+    },
+    {
+      "page": "/admin/blogs",
+      "regex": "^/admin/blogs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/blogs(?:/)?$"
+    },
+    {
+      "page": "/admin/categories",
+      "regex": "^/admin/categories(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/categories(?:/)?$"
+    },
+    {
+      "page": "/admin/tools",
+      "regex": "^/admin/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/tools(?:/)?$"
+    },
+    {
+      "page": "/ads.txt",
+      "regex": "^/ads\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ads\\.txt(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/categories",
+      "regex": "^/categories(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/categories(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/disclaimer",
+      "regex": "^/disclaimer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/disclaimer(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
+    },
+    {
+      "page": "/tools",
+      "regex": "^/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools(?:/)?$"
+    },
+    {
+      "page": "/tools/age-calculator",
+      "regex": "^/tools/age\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/age\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/barcode-generator",
+      "regex": "^/tools/barcode\\-generator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/barcode\\-generator(?:/)?$"
+    },
+    {
+      "page": "/tools/bmi-calculator",
+      "regex": "^/tools/bmi\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/bmi\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/cagr-calculator",
+      "regex": "^/tools/cagr\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/cagr\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/case-converter",
+      "regex": "^/tools/case\\-converter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/case\\-converter(?:/)?$"
+    },
+    {
+      "page": "/tools/character-counter",
+      "regex": "^/tools/character\\-counter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/character\\-counter(?:/)?$"
+    },
+    {
+      "page": "/tools/emi-calculator",
+      "regex": "^/tools/emi\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/emi\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/fd-calculator",
+      "regex": "^/tools/fd\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/fd\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/gst-calculator",
+      "regex": "^/tools/gst\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/gst\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/image-compressor",
+      "regex": "^/tools/image\\-compressor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/image\\-compressor(?:/)?$"
+    },
+    {
+      "page": "/tools/image-resizer",
+      "regex": "^/tools/image\\-resizer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/image\\-resizer(?:/)?$"
+    },
+    {
+      "page": "/tools/image-to-pdf",
+      "regex": "^/tools/image\\-to\\-pdf(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/image\\-to\\-pdf(?:/)?$"
+    },
+    {
+      "page": "/tools/income-tax-calculator",
+      "regex": "^/tools/income\\-tax\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/income\\-tax\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/json-formatter",
+      "regex": "^/tools/json\\-formatter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/json\\-formatter(?:/)?$"
+    },
+    {
+      "page": "/tools/lumpsum-calculator",
+      "regex": "^/tools/lumpsum\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/lumpsum\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/password-generator",
+      "regex": "^/tools/password\\-generator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/password\\-generator(?:/)?$"
+    },
+    {
+      "page": "/tools/pdf-compressor",
+      "regex": "^/tools/pdf\\-compressor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pdf\\-compressor(?:/)?$"
+    },
+    {
+      "page": "/tools/pdf-merge",
+      "regex": "^/tools/pdf\\-merge(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pdf\\-merge(?:/)?$"
+    },
+    {
+      "page": "/tools/pdf-split",
+      "regex": "^/tools/pdf\\-split(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pdf\\-split(?:/)?$"
+    },
+    {
+      "page": "/tools/pdf-to-image",
+      "regex": "^/tools/pdf\\-to\\-image(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pdf\\-to\\-image(?:/)?$"
+    },
+    {
+      "page": "/tools/qr-code-generator",
+      "regex": "^/tools/qr\\-code\\-generator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/qr\\-code\\-generator(?:/)?$"
+    },
+    {
+      "page": "/tools/sip-calculator",
+      "regex": "^/tools/sip\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/sip\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/step-up-sip-calculator",
+      "regex": "^/tools/step\\-up\\-sip\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/step\\-up\\-sip\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/stock-average-calculator",
+      "regex": "^/tools/stock\\-average\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/stock\\-average\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/tools/unit-converter",
+      "regex": "^/tools/unit\\-converter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/unit\\-converter(?:/)?$"
+    },
+    {
+      "page": "/tools/word-counter",
+      "regex": "^/tools/word\\-counter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/word\\-counter(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

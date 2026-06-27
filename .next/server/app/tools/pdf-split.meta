@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/tools/layout,_N_T_/tools/pdf-split/layout,_N_T_/tools/pdf-split/page,_N_T_/tools/pdf-split"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/tools/pdf-split/__PAGE__",
+    "/tools/pdf-split",
+    "/tools",
+    "/_index",
+    "/_head"
+  ]
+}

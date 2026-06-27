@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/tools/page": "app/admin/tools/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/disclaimer/page": "app/disclaimer/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/terms/page": "app/terms/page.js",
+  "/tools/emi-calculator/page": "app/tools/emi-calculator/page.js",
+  "/tools/income-tax-calculator/page": "app/tools/income-tax-calculator/page.js",
+  "/tools/page": "app/tools/page.js",
+  "/tools/pdf-to-image/page": "app/tools/pdf-to-image/page.js",
+  "/tools/sip-calculator/page": "app/tools/sip-calculator/page.js",
+  "/tools/step-up-sip-calculator/page": "app/tools/step-up-sip-calculator/page.js",
+  "/tools/unit-converter/page": "app/tools/unit-converter/page.js"
+}
