@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: 'ToolHub India',
-  title: 'ToolHub India - Free Online Tools and Calculators',
+  name: 'AllInOneTools',
+  title: 'AllInOneTools - Free Online Tools and Calculators',
   description:
     'Free online tools, calculators, and practical guides for finance, documents, images, text, and daily productivity.',
   defaultSiteUrl: 'https://your-domain.com',
-  editorialTeam: 'ToolHub India Editorial Team',
+  editorialTeam: 'AllInOneTools Editorial Team',
   contentReviewedAt: '2026-06-29',
 }
 
