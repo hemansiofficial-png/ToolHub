@@ -4,7 +4,7 @@ export default function ToolCard({ title, slug, description }: { title: string; 
   return (
     <Link
       href={`/tools/${slug}`}
-      className="interactive-panel block rounded-[26px] border p-5 transition duration-200 hover:-translate-y-1 h-full"
+      className="interactive-panel block h-auto self-start rounded-[26px] border p-5 transition duration-200 hover:-translate-y-1"
     >
       <div className="flex items-center justify-between gap-4">
         <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">{title}</h3>

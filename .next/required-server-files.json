@@ -104,7 +104,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\heman",
+    "outputFileTracingRoot": "C:\\Users\\heman\\Desktop\\tool website",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -294,12 +294,12 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "C:\\Users\\heman"
+      "root": "C:\\Users\\heman\\Desktop\\tool website"
     },
     "distDirRoot": ".next"
   },
   "appDir": "C:\\Users\\heman\\Desktop\\tool website",
-  "relativeAppDir": "Desktop\\tool website",
+  "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
     ".next\\server\\pages-manifest.json",

@@ -1,0 +1,3 @@
+module.exports=[26435,a=>{"use strict";var b=a.i(7997),c=a.i(21680),d=a.i(91677);function e({children:a}){return(0,b.jsxs)("div",{className:"min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col",children:[(0,b.jsx)(c.default,{}),(0,b.jsx)("main",{className:"flex-1 container mx-auto p-4",children:a}),(0,b.jsx)(d.default,{})]})}a.s(["default",()=>e])}];
+
+//# sourceMappingURL=app_admin_layout_tsx_56c3019d._.js.map

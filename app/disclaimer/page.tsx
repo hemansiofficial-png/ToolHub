@@ -1,9 +1,8 @@
 import { buildMetadata } from '../../components/PageSeo'
 import ContentPageShell from '../../components/ContentPageShell'
-import { siteConfig } from '../../utils/site'
 
 export const metadata = buildMetadata({
-  title: `Disclaimer - ${siteConfig.name}`,
+  title: 'Disclaimer',
   description: 'Read the important limitations that apply to ToolHub India calculators, articles, external links, and advertising placements.',
   url: '/disclaimer',
 })
@@ -14,7 +13,7 @@ export default function DisclaimerPage() {
       eyebrow="Policy"
       title="Disclaimer"
       description="ToolHub India provides general information and utility tools. Results and articles are meant to assist visitors, not replace professional judgment."
-      updatedAt="25 June 2026"
+      updatedAt="29 June 2026"
       sidebar={
         <div className="interactive-panel rounded-[28px] p-5 text-sm leading-6 text-slate-600 dark:text-slate-300">
           <p className="font-semibold text-slate-900 dark:text-slate-100">Important note</p>

@@ -1,11 +1,8 @@
 import Link from 'next/link'
-import Script from 'next/script'
 import { notFound } from 'next/navigation'
 import AdPlaceholder from '../../../components/AdPlaceholder'
 import ToolPageShell from '../../../components/ToolPageShell'
 import { tools } from '../../../data/tools'
-import { jsonLdForTool } from '../../../utils/seo'
-import { getSiteUrl } from '../../../utils/site'
 import { getToolMetadataBySlug } from '../../../utils/toolMetadata'
 
 type Props = { params: Promise<{ slug: string }> }
@@ -24,27 +21,23 @@ export default async function ToolPage({ params }: Props) {
   const tool = tools.find((item) => item.slug === slug)
   if (!tool) return notFound()
 
-  const canonical = `${getSiteUrl()}/tools/${slug}`
-  const ld = jsonLdForTool({ title: tool.title, description: tool.description, url: canonical })
-  const relatedTools = tools.filter((item) => item.category === tool.category && item.slug !== tool.slug).slice(0, 3)
+  const relatedTools = tools.filter((item) => item.category === tool.category && item.slug !== tool.slug).slice(0, 4)
 
   return (
     <main>
-      <Script id="ld+json" type="application/ld+json">{JSON.stringify(ld)}</Script>
-
       <ToolPageShell
         title={tool.title}
         description={tool.description}
         badge={`${tool.category} tool`}
         stats={[
           { label: 'Category', value: tool.category },
-          { label: 'Ready now', value: 'Browse related' },
+          { label: 'Ready now', value: 'Use instantly' },
           { label: 'Route', value: `/tools/${tool.slug}` },
         ]}
         tips={[
-          'This route is set up for custom tool experiences, so the full UI can be dropped in cleanly.',
-          'Use the related links to jump to active tools with live inputs and richer results.',
-          'Structured data and internal linking are already in place for SEO and discovery.',
+          'This route is ready for a custom tool experience when you want to replace the placeholder surface below.',
+          'Use the page sections under the tool interface for examples, FAQs, and related resources.',
+          'The category and blog links on this page help visitors keep exploring instead of dead-ending.',
         ]}
         aside={
           <div className="space-y-4">
@@ -72,7 +65,7 @@ export default async function ToolPage({ params }: Props) {
         <div className="interactive-panel rounded-[28px] p-6">
           <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">Tool surface ready</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 dark:text-slate-300">
-            This page now uses the same animated tool shell as the interactive calculators and generators, so future tools can plug into a polished layout from day one.
+            This route now uses the same resource-rich layout as the live calculators and converters, so a future tool can plug into a polished shell without rebuilding the surrounding SEO and help content.
           </p>
         </div>
       </ToolPageShell>

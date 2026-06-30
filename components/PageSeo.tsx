@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { siteConfig } from '../utils/site'
+import { buildCanonical } from '../utils/seo'
+import { getSiteUrl } from '../utils/site'
 
 type PageSeoProps = {
   title: string
@@ -25,12 +28,13 @@ export function buildMetadata({
     title,
     description,
     keywords,
-    alternates: url ? { canonical: url } : undefined,
+    alternates: url ? { canonical: buildCanonical(getSiteUrl(), url) } : undefined,
     openGraph: {
+      siteName: siteConfig.name,
       title,
       description,
       images: image ? [{ url: image }] : undefined,
-      url,
+      url: url ? buildCanonical(getSiteUrl(), url) : undefined,
       type,
       ...(type === 'article'
         ? {
@@ -43,6 +47,7 @@ export function buildMetadata({
       card: 'summary_large_image',
       title,
       description,
+      images: image ? [image] : undefined,
     },
   }
 }

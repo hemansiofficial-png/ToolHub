@@ -1,9 +1,8 @@
 import { buildMetadata } from '../../components/PageSeo'
 import ContentPageShell from '../../components/ContentPageShell'
-import { siteConfig } from '../../utils/site'
 
 export const metadata = buildMetadata({
-  title: `Privacy Policy - ${siteConfig.name}`,
+  title: 'Privacy Policy',
   description: 'Learn what data ToolHub India processes, how ads and analytics may work, and how to contact us about privacy requests.',
   url: '/privacy',
 })
@@ -14,7 +13,7 @@ export default function PrivacyPage() {
       eyebrow="Policy"
       title="Privacy Policy"
       description="This page explains what information ToolHub India may process, why it is used, and how advertising or analytics integrations should be disclosed."
-      updatedAt="25 June 2026"
+      updatedAt="29 June 2026"
       sidebar={
         <div className="interactive-panel rounded-[28px] p-5 text-sm leading-6 text-slate-600 dark:text-slate-300">
           <p className="font-semibold text-slate-900 dark:text-slate-100">Privacy summary</p>

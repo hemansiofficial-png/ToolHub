@@ -1,10 +1,9 @@
 import Link from 'next/link'
 import { buildMetadata } from '../../components/PageSeo'
 import ContentPageShell from '../../components/ContentPageShell'
-import { siteConfig } from '../../utils/site'
 
 export const metadata = buildMetadata({
-  title: `About - ${siteConfig.name}`,
+  title: 'About',
   description: 'Learn what ToolHub India is building, how tools and articles are created, and what principles guide the site.',
   url: '/about',
 })
@@ -15,7 +14,7 @@ export default function AboutPage() {
       eyebrow="Company"
       title="About ToolHub India"
       description="ToolHub India brings together practical online tools and plain-language content so visitors can solve small problems quickly without getting lost in clutter."
-      updatedAt="25 June 2026"
+      updatedAt="29 June 2026"
       sidebar={
         <div className="interactive-panel rounded-[28px] p-5 text-sm leading-6 text-slate-600 dark:text-slate-300">
           <p className="font-semibold text-slate-900 dark:text-slate-100">Our approach</p>

@@ -1,9 +1,9 @@
 import { buildMetadata } from '../../components/PageSeo'
 import ContentPageShell from '../../components/ContentPageShell'
-import { getContactEmail, hasConfiguredContactEmail, siteConfig } from '../../utils/site'
+import { getContactEmail, hasConfiguredContactEmail } from '../../utils/site'
 
 export const metadata = buildMetadata({
-  title: `Contact - ${siteConfig.name}`,
+  title: 'Contact',
   description: 'Contact ToolHub India for support, partnerships, advertising, privacy questions, or feedback.',
   url: '/contact',
 })
@@ -16,7 +16,7 @@ export default function ContactPage() {
       eyebrow="Support"
       title="Contact ToolHub India"
       description="Use this page for support requests, privacy questions, correction requests, partnerships, or advertising enquiries."
-      updatedAt="25 June 2026"
+      updatedAt="29 June 2026"
       sidebar={
         <div className="interactive-panel rounded-[28px] p-5 text-sm leading-6 text-slate-600 dark:text-slate-300">
           <p className="font-semibold text-slate-900 dark:text-slate-100">Best uses for this page</p>

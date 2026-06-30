@@ -181,4 +181,32 @@
         <loc>https://your-domain.com/blog/gst-calculator-common-mistakes</loc>
         <changefreq>weekly</changefreq>
       </url>
+      <url>
+        <loc>https://your-domain.com/blog/how-to-read-finance-calculators</loc>
+        <changefreq>weekly</changefreq>
+      </url>
+      <url>
+        <loc>https://your-domain.com/blog/pdf-workflows-for-small-teams</loc>
+        <changefreq>weekly</changefreq>
+      </url>
+      <url>
+        <loc>https://your-domain.com/blog/image-optimization-checklist</loc>
+        <changefreq>weekly</changefreq>
+      </url>
+      <url>
+        <loc>https://your-domain.com/blog/strong-password-habits-that-scale</loc>
+        <changefreq>weekly</changefreq>
+      </url>
+      <url>
+        <loc>https://your-domain.com/blog/json-formatting-for-debugging</loc>
+        <changefreq>weekly</changefreq>
+      </url>
+      <url>
+        <loc>https://your-domain.com/blog/writing-for-tight-character-limits</loc>
+        <changefreq>weekly</changefreq>
+      </url>
+      <url>
+        <loc>https://your-domain.com/blog/understanding-bmi-results</loc>
+        <changefreq>weekly</changefreq>
+      </url>
   </urlset>

@@ -15,11 +15,6 @@ export function getToolMetadataBySlug(slug: string) {
     title: seoContent.metaTitle,
     description: seoContent.metaDescription,
     url: `/tools/${slug}`,
-    keywords: [
-      seoContent.title,
-      `${seoContent.title} online`,
-      `${seoContent.category.toLowerCase()} tool`,
-      'ToolHub India',
-    ],
+    keywords: [...seoContent.keywords, `${seoContent.category.toLowerCase()} tool`, 'ToolHub India'],
   })
 }
