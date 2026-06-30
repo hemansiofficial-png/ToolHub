@@ -1,3 +1,6 @@
+Website URL : https://allinonetools.in
+
+
 # ToolHub India
 
 Next.js 16 App Router starter for a multi-tool website. Implements initial tools: SIP, EMI, GST, QR Code, JSON Formatter, Word Counter, Age Calculator, Password Generator.
